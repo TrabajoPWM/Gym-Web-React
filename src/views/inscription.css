@@ -1,0 +1,1196 @@
+.inscription-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.inscription-pricing {
+  width: 100%;
+  height: 1184px;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 16px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+  background-color: #F3F5FA;
+}
+.inscription-content {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  flex-direction: column;
+}
+.inscription-header {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-heading {
+  gap: var(--dl-space-space-unit);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-text {
+  width: 100%;
+  font-size: 40px;
+  max-width: 600px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 56px;
+}
+.inscription-pricing-plans {
+  flex: 1;
+  width: 100%;
+  display: grid;
+  overflow: hidden;
+  align-items: flex-start;
+  border-color: #DBDBDB;
+  border-width: 1px;
+  border-radius: 16px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #375EE0;
+  grid-template-columns: auto auto;
+}
+.inscription-plans {
+  flex: 1;
+  height: 760px;
+  display: grid;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: TwoUnits;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-color: #ffffff;
+  grid-template-columns: auto auto auto;
+}
+.inscription-plan {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 300px;
+  align-items: flex-start;
+  border-color: #DBDBDB;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: flex-start;
+  border-right-width: 1px;
+}
+.inscription-top {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  border-color: #DBDBDB;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+  border-bottom-width: 1px;
+}
+.inscription-heading1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-text01 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.inscription-text02 {
+  font-family: "Poppins";
+  line-height: 24px;
+}
+.inscription-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inscription-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inscription-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inscription-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inscription-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inscription-container6 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inscription-container7 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inscription-cost {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.inscription-text03 {
+  font-size: 40px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 40px;
+}
+.inscription-text04 {
+  font-family: "Poppins";
+}
+.inscription-bottom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inscription-check-list {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
+}
+.inscription-button {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  background-color: #ADE2DF;
+}
+.inscription-button:hover {
+  background-color: rgba(173, 226, 223, 0.5);
+}
+.inscription-text05 {
+  font-style: normal;
+  font-weight: 500;
+}
+.inscription-plan1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 300px;
+  align-items: flex-start;
+  border-color: #DBDBDB;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+  border-right-width: 1px;
+}
+.inscription-top1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  border-color: #DBDBDB;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+  border-bottom-width: 1px;
+}
+.inscription-heading2 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-text06 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.inscription-text07 {
+  font-family: "Poppins";
+  line-height: 24px;
+}
+.inscription-cost1 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.inscription-text08 {
+  font-size: 40px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 40px;
+}
+.inscription-text09 {
+  font-family: "Poppins";
+}
+.inscription-bottom1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inscription-check-list1 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
+}
+.inscription-button1 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  background-color: #ADE2DF;
+}
+.inscription-button1:hover {
+  background-color: rgba(173, 226, 223, 0.5);
+}
+.inscription-text10 {
+  font-style: normal;
+  font-weight: 500;
+}
+.inscription-plan2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 300px;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inscription-top2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  border-color: #DBDBDB;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+  border-bottom-width: 1px;
+}
+.inscription-heading3 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-text11 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.inscription-text12 {
+  font-family: "Poppins";
+  line-height: 24px;
+}
+.inscription-cost2 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.inscription-text13 {
+  font-size: 40px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 40px;
+}
+.inscription-text14 {
+  font-family: "Poppins";
+}
+.inscription-bottom2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inscription-check-list2 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  height: 325px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
+}
+.inscription-text15 {
+  color: #000dff;
+  font-size: 16px;
+}
+.inscription-button2 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  background-color: #ADE2DF;
+}
+.inscription-button2:hover {
+  background-color: rgba(173, 226, 223, 0.5);
+}
+.inscription-text16 {
+  font-style: normal;
+  font-weight: 500;
+}
+.inscription-expand {
+  flex: 0.3;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inscription-overlay {
+  flex: 1;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: space-between;
+  background-image: radial-gradient(circle at left top, rgb(77, 64, 208) 0.00%,rgb(173, 226, 223) 53.00%),url("/planbackground.svg");
+}
+.inscription-header1 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-heading4 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  max-width: 256px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-text17 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.inscription-text18 {
+  color: #ffffff;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 31px;
+}
+.inscription-check-list3 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-check {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.inscription-icon {
+  fill: #ffffff;
+  width: 18px;
+  height: 18px;
+}
+.inscription-text19 {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Poppins;
+  line-height: 24px;
+}
+.inscription-check1 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.inscription-icon02 {
+  fill: #ffffff;
+  width: 18px;
+  height: 18px;
+}
+.inscription-text20 {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: Poppins;
+  line-height: 24px;
+}
+.inscription-check2 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.inscription-icon04 {
+  fill: #ffffff;
+  width: 18px;
+  height: 18px;
+}
+.inscription-text21 {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: Poppins;
+  line-height: 24px;
+}
+.inscription-button3 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  background-color: #000000;
+}
+.inscription-button3:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.inscription-text22 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: 500;
+}
+.inscription-plans1 {
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+}
+.inscription-plan3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 300px;
+  align-items: flex-start;
+  border-color: #DBDBDB;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: flex-start;
+  border-right-width: 1px;
+}
+.inscription-top3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  border-color: #DBDBDB;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+  border-bottom-width: 1px;
+}
+.inscription-heading5 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-text25 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.inscription-text26 {
+  font-family: Poppins;
+  line-height: 24px;
+}
+.inscription-cost3 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-text27 {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 40px;
+}
+.inscription-bottom3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inscription-check-list4 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
+}
+.inscription-button4 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  background-color: #ADE2DF;
+}
+.inscription-button4:hover {
+  background-color: rgba(173, 226, 223, 0.5);
+}
+.inscription-text28 {
+  font-style: normal;
+  font-weight: 500;
+}
+.inscription-plan4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 300px;
+  align-items: flex-start;
+  border-color: #DBDBDB;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+  border-right-width: 1px;
+}
+.inscription-top4 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  border-color: #DBDBDB;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+  border-bottom-width: 1px;
+}
+.inscription-heading6 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-text29 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.inscription-text30 {
+  font-family: Poppins;
+  line-height: 24px;
+}
+.inscription-cost4 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.inscription-text31 {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 40px;
+}
+.inscription-text32 {
+  font-family: Poppins;
+}
+.inscription-bottom4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inscription-check-list5 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
+}
+.inscription-button5 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  background-color: #ADE2DF;
+}
+.inscription-button5:hover {
+  background-color: rgba(173, 226, 223, 0.5);
+}
+.inscription-text33 {
+  font-style: normal;
+  font-weight: 500;
+}
+.inscription-plan5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 300px;
+  align-items: flex-start;
+  border-color: #DBDBDB;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+  border-right-width: 1px;
+}
+.inscription-top5 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  border-color: #DBDBDB;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+  border-bottom-width: 1px;
+}
+.inscription-heading7 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-text34 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.inscription-text35 {
+  font-family: Poppins;
+  line-height: 24px;
+}
+.inscription-cost5 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.inscription-text36 {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 40px;
+}
+.inscription-text37 {
+  font-family: Poppins;
+}
+.inscription-bottom5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inscription-check-list6 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
+}
+.inscription-button6 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  background-color: #ADE2DF;
+}
+.inscription-button6:hover {
+  background-color: rgba(173, 226, 223, 0.5);
+}
+.inscription-text38 {
+  font-style: normal;
+  font-weight: 500;
+}
+.inscription-expand1 {
+  flex: 0.3;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inscription-overlay1 {
+  flex: 1;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: space-between;
+  background-image: url("/planbackground.svg");
+}
+.inscription-header2 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-heading8 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  max-width: 256px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-text39 {
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.inscription-text40 {
+  color: #C1FFFC;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 31px;
+}
+.inscription-check-list7 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inscription-check3 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.inscription-icon06 {
+  fill: #ffffff;
+  width: 18px;
+  height: 18px;
+}
+.inscription-text41 {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Poppins;
+  line-height: 24px;
+}
+.inscription-check4 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.inscription-icon08 {
+  fill: #ffffff;
+  width: 18px;
+  height: 18px;
+}
+.inscription-text42 {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: Poppins;
+  line-height: 24px;
+}
+.inscription-check5 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.inscription-icon10 {
+  fill: #ffffff;
+  width: 18px;
+  height: 18px;
+}
+.inscription-text43 {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: Poppins;
+  line-height: 24px;
+}
+.inscription-button7 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  background-color: #000000;
+}
+.inscription-button7:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.inscription-text44 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: 500;
+}
+@media(max-width: 991px) {
+  .inscription-pricing {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .inscription-content {
+    gap: var(--dl-space-space-threeunits);
+  }
+  .inscription-header {
+    gap: var(--dl-space-space-unit);
+  }
+  .inscription-pricing-plans {
+    grid-template-columns: none;
+  }
+  .inscription-plans {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .inscription-overlay {
+    width: 100%;
+    background-size: contain;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .inscription-header1 {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .inscription-heading4 {
+    gap: var(--dl-space-space-halfunit);
+    max-width: 600px;
+  }
+  .inscription-text17 {
+    font-size: 18px;
+  }
+  .inscription-text18 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .inscription-text19 {
+    line-height: 21px;
+  }
+  .inscription-text20 {
+    line-height: 21px;
+  }
+  .inscription-text21 {
+    line-height: 21px;
+  }
+  .inscription-button3 {
+    margin-top: var(--dl-space-space-threeunits);
+  }
+  .inscription-overlay1 {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .inscription-header2 {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .inscription-heading8 {
+    gap: var(--dl-space-space-halfunit);
+    max-width: 600px;
+  }
+  .inscription-text39 {
+    font-size: 18px;
+  }
+  .inscription-text40 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .inscription-text41 {
+    line-height: 21px;
+  }
+  .inscription-text42 {
+    line-height: 21px;
+  }
+  .inscription-text43 {
+    line-height: 21px;
+  }
+  .inscription-button7 {
+    margin-top: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .inscription-text {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .inscription-pricing-plans {
+    display: none;
+  }
+  .inscription-plans1 {
+    gap: var(--dl-space-space-oneandhalfunits);
+    display: flex;
+  }
+  .inscription-plan3 {
+    max-width: 100%;
+    padding-top: var(--dl-space-space-threeunits);
+    border-width: 1px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: 16px;
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+    background-color: #ffffff;
+  }
+  .inscription-top3 {
+    width: 100%;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .inscription-heading5 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .inscription-text25 {
+    font-size: 18px;
+  }
+  .inscription-text27 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .inscription-plan4 {
+    max-width: 100%;
+    padding-top: var(--dl-space-space-threeunits);
+    border-width: 1px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: 16px;
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+    background-color: #ffffff;
+    border-right-width: 1px;
+  }
+  .inscription-top4 {
+    width: 100%;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .inscription-heading6 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .inscription-text29 {
+    font-size: 18px;
+  }
+  .inscription-text31 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .inscription-text33 {
+    font-weight: 500;
+  }
+  .inscription-plan5 {
+    max-width: 100%;
+    padding-top: var(--dl-space-space-threeunits);
+    border-width: 1px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: 16px;
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+    background-color: #ffffff;
+    border-right-width: 1px;
+  }
+  .inscription-top5 {
+    width: 100%;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .inscription-heading7 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .inscription-text34 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+  }
+  .inscription-text36 {
+    font-size: 32px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 32px;
+  }
+  .inscription-text38 {
+    font-weight: 500;
+  }
+  .inscription-expand1 {
+    flex: 0 0 auto;
+    width: 100%;
+    border-radius: 16px;
+    background-color: #375EE0;
+  }
+  .inscription-overlay1 {
+    align-items: center;
+    background-size: contain;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+}
